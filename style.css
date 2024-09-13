@@ -1,0 +1,261 @@
+/*styles.css*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+nav a{
+    width: 88px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    padding: 2em;
+}
+
+.INTRO {
+    background: url(nob.jpg.jpg);
+    height: 100v;
+    width: 1550;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.INTRO-content h1 {
+    font-size: 45px;
+    color: #7a887a;
+}
+
+.INTRO-content p {
+    font-size: 40px;
+    color: pink;
+}
+
+footer{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.SOURCES-content li {
+    font-size: 25px;
+    font-weight: 700;
+    color: green;
+}
+
+.CONTACTS {
+    background: url(nob.jpg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.CONTACTS-content {
+    max-width: 500px;
+    position: ceter;
+}
+
+.CONTACTS-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color:blanchedalmond;
+}
+
+.CONTACTS-content p {
+    font-size: 30px;
+    font-weight: 700;
+    color: blanchedalmond;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+}
+
+form label{
+    margin: 10px 0 5px;
+}
+
+form input, form textarea{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #555;
+}
+
+.CONTACTS-content img {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+
+}
+
+.skills {
+    height: 90vh;
+    background-size: cover; 
+    background-size: cover;
+    background-position: center;
+    align-items: center; 
+    display: inline-flex;
+    padding: 0;
+}
+
+.skills-content {
+    font-weight: 500px;
+    position: center;
+    display: inline-flex;
+}
+
+.skills-content h1 {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+}
+
+
+.skills-content btn-box {
+    display: flex;
+    justify-content: center;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100;
+    background: rgb(134, 81, 0);
+    border: blue;
+    border-radius: 9px;
+    font-size: 19px;
+    color: green;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 9px;
+}
+
+.TOOLS {
+    background: url(nob.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    align-items: center;
+    padding: 0%;
+    
+}.TOOLS-content {
+    font-size: 35px;
+}
+
+
+
+.TOOLS-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color:black;
+}
+
+.TOOLS-content p {
+    font-size: 45px;
+    color: black;
+}
+
+.HOME {
+    background: url(nob.jpg.jpg);
+    height: 100vh;
+    width: 1550px;
+    background-size: cover; 
+    background-position: center;
+    align-items: center; 
+    display: inline-flex;
+    padding: 0;
+}
+
+.HOME-content {
+    font-weight: 500px;
+    position: center;
+    display: inline-flex;
+}
+
+.HOME-content h1 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    color: blanchedalmond;
+}
+
+
+.HOME-content btn-box {
+    display: flex;
+    justify-content: center;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100;
+    background: rgb(134, 81, 0);
+    border: blue;
+    border-radius: 9px;
+    font-size: 19px;
+    color: green;
+    text-decoration: blanchedalmond;
+    font-weight: 700;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 9px;
+}
+
